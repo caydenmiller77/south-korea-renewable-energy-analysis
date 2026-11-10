@@ -44,7 +44,6 @@ These findings describe associations, not proof of causation.
 
 <img src="figures/Figure_5_Electricity_Sources_vs_Carbon_Intensity.png" width="700">
 
-
 ## Methodology
 
 The analysis uses annual observations from 2015 through 2024 and includes:
