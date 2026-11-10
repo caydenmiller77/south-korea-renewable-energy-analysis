@@ -26,23 +26,24 @@ These findings describe associations, not proof of causation.
 
 ### 1. Renewable Electricity Adoption
 
-![Renewable Electricity Adoption](figures/Figure_1_Renewable_Electricity_Adoption.png)
+<img src="figures/Figure_1_Renewable_Electricity_Adoption.png" width="700">
 
 ### 2. Electricity Generation Mix
 
-![Electricity Generation Mix](figures/Figure_2_Electricity_Generation_Mix.png)
+<img src="figures/Figure_2_Electricity_Generation_Mix.png" width="700">
 
 ### 3. Renewable Electricity vs. Carbon Intensity
 
-![Renewables vs Carbon Intensity](figures/Figure_3_Renewables_vs_Carbon_Intensity.png)
+<img src="figures/Figure_3_Renewables_vs_Carbon_Intensity.png" width="700">
 
 ### 4. Economic Growth vs. Carbon Intensity
 
-![Economic Growth vs Carbon Intensity](figures/Figure_4_Economic_Growth_vs_Carbon_Intensity.png)
+<img src="figures/Figure_4_Economic_Growth_vs_Carbon_Intensity.png" width="700">
 
 ### 5. Electricity Sources vs. Carbon Intensity
 
-![Electricity Sources vs Carbon Intensity](figures/Figure_5_Electricity_Sources_vs_Carbon_Intensity.png)
+<img src="figures/Figure_5_Electricity_Sources_vs_Carbon_Intensity.png" width="700">
+
 
 ## Methodology
 
