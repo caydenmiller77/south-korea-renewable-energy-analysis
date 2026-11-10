@@ -26,7 +26,7 @@ These findings describe associations, not proof of causation.
 
 ### 1. Renewable Electricity Adoption
 
-<img src="figures/Figure_1_Renewable_Electricity_Adoption.png" width="700">
+![Renewable Electricity Adoption](./figures/Figure_1_Renewable_Electricity_Adoption.png)
 
 ### 2. Electricity Generation Mix
 
