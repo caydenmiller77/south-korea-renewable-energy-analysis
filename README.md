@@ -45,6 +45,28 @@ The five figures below are stored in the repository's root directory.
 
 ![Electricity Sources vs. Carbon Intensity](./Figure_5_Electricity_Sources_vs_Carbon_Intensity.png)
 
+## Data Sources & References
+
+The cleaned dataset was checked against the published series below. The values in the electricity columns match the South Korea observations in Ember's yearly electricity dataset, and the GDP values match the World Bank's GDP series.
+
+### Economic data
+
+- **World Bank, World Development Indicators (WDI):** GDP (constant 2015 US$), indicator `NY.GDP.MKTP.KD`, and GDP growth (annual %), indicator `NY.GDP.MKTP.KD.ZG`, for Korea, Rep.
+- Data: [World Bank GDP series for Korea, Rep.](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD?locations=KR)
+- Indicator metadata: [World Bank WDI — NY.GDP.MKTP.KD](https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.MKTP.KD)
+
+### Electricity data
+
+- **Ember, Yearly Electricity Data:** annual electricity generation mix (including renewable, coal, gas, and nuclear shares) and carbon intensity of electricity generation for South Korea, 2015–2024.
+- Dataset and documentation: [Ember — Yearly Electricity Data](https://ember-energy.org/data/yearly-electricity-data/)
+- Data repository: [Ember electricity data on GitHub](https://github.com/ember-energy/ember-data)
+
+### Data preparation and attribution
+
+The annual series were combined into one country-year dataset and used for descriptive statistics, trend visualizations, and correlation analysis. GDP is expressed in constant 2015 US dollars; electricity generation shares are percentages; electricity carbon intensity is expressed in grams of CO₂-equivalent per kilowatt-hour.
+
+The cleaned CSV is provided in this repository for transparency and reproducibility. Please consult the original providers' documentation for indicator definitions, methodology, licensing, and updates. This project is an independent analysis and is not affiliated with or endorsed by the World Bank or Ember.
+
 ## Methodology
 
 The analysis uses annual observations from 2015 through 2024 and includes:
