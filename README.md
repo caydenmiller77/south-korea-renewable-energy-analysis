@@ -1,4 +1,3 @@
-# south-korea-renewable-energy-analysis
 # South Korea Renewable Energy & Economic Analysis (2015–2024)
 
 ## Overview
@@ -17,32 +16,34 @@ To what extent has renewable energy adoption in South Korea been associated with
 - **Coal's share declined:** Coal fell from 42.48% to 30.51% of electricity generation.
 - **Electricity carbon intensity decreased:** Carbon intensity declined by 14.79% over the study period.
 - **Economic growth continued:** Real GDP increased by 24.56% between 2015 and 2024.
-- **Renewables and carbon intensity were strongly negatively correlated:** Pearson's *r* = −0.8819 (*p* = 0.0007; n = 10).
+- **Renewables and carbon intensity were strongly negatively correlated:** Pearson's *r* = −0.8819 (*p* = 0.0007; *n* = 10).
 - **GDP growth and renewable adoption:** The observed correlation was not statistically significant at the 5% level.
 
 These findings describe associations, not proof of causation.
 
 ## Visualizations
 
+The five figures below are stored in the repository's root directory.
+
 ### 1. Renewable Electricity Adoption
 
-![Renewable Electricity Adoption](./figures/Figure_1_Renewable_Electricity_Adoption.png)
+![Renewable Electricity Adoption](./Figure_1_Renewable_Electricity_Adoption.png)
 
 ### 2. Electricity Generation Mix
 
-<img src="figures/Figure_2_Electricity_Generation_Mix.png" width="700">
+![Electricity Generation Mix](./Figure_2_Electricity_Generation_Mix.png)
 
 ### 3. Renewable Electricity vs. Carbon Intensity
 
-<img src="figures/Figure_3_Renewables_vs_Carbon_Intensity.png" width="700">
+![Renewables vs. Carbon Intensity](./Figure_3_Renewables_vs_Carbon_Intensity.png)
 
 ### 4. Economic Growth vs. Carbon Intensity
 
-<img src="figures/Figure_4_Economic_Growth_vs_Carbon_Intensity.png" width="700">
+![Economic Growth vs. Carbon Intensity](./Figure_4_Economic_Growth_vs_Carbon_Intensity.png)
 
 ### 5. Electricity Sources vs. Carbon Intensity
 
-<img src="figures/Figure_5_Electricity_Sources_vs_Carbon_Intensity.png" width="700">
+![Electricity Sources vs. Carbon Intensity](./Figure_5_Electricity_Sources_vs_Carbon_Intensity.png)
 
 ## Methodology
 
@@ -58,22 +59,19 @@ The analysis uses annual observations from 2015 through 2024 and includes:
 ## Tools & Technologies
 
 - Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+- Pandas and NumPy
+- Matplotlib and Seaborn
 - SciPy
 - Google Colab
 - GitHub
 
-## Repository Structure
+## Repository Contents
 
-```text
-data/       Cleaned research dataset
-figures/    Five research visualizations
-notebooks/  Python research notebook
-report/     Final research report (PDF)
-```
+- **Python notebook:** `South_Korea_Renewable_Energy_Economic_Analysis.ipynb`
+- **Cleaned dataset:** `South_Korea_Renewable_Energy_Data-2.csv`
+- **Research report:** `South_Korea_Renewable_Energy_Research_Report-3.pdf`
+- **Visualizations:** Five PNG figures in the repository's root directory
+- **Figure archive:** `South_Korea_Research_Figures.zip`
 
 ## Limitations
 
@@ -89,4 +87,5 @@ Future work could incorporate additional years of data, energy prices, electrici
 
 ## Author
 
-Undergraduate research project Conducted by Cayden Miller.
+Cayden Miller  
+University of Florida
