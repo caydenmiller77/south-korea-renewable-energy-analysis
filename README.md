@@ -90,9 +90,9 @@ The analysis uses annual observations from 2015 through 2024 and includes:
 
 ## Repository Contents
 
-- **Python notebook:** `South_Korea_Renewable_Energy_Economic_Analysis.ipynb`
-- **Cleaned dataset:** `South_Korea_Renewable_Energy_Data-2.csv`
-- **Research report:** `South_Korea_Renewable_Energy_Research_Report-3.pdf`
+- **Python notebook:** [`notebooks/South_Korea_Renewable_Energy_Analysis.ipynb`](notebooks/South_Korea_Renewable_Energy_Analysis.ipynb)
+- **Cleaned dataset:** [`data/South_Korea_Renewable_Energy_Data.csv`](data/South_Korea_Renewable_Energy_Data.csv)
+- **Research report:** [`1. report/South_Korea_Renewable_Energy_Research_Report.pdf`](1.%20report/South_Korea_Renewable_Energy_Research_Report.pdf)
 - **Visualizations:** Five PNG figures in the repository's root directory
 - **Figure archive:** `South_Korea_Research_Figures.zip`
 
