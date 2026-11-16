@@ -47,25 +47,26 @@ The five figures below are stored in the repository's root directory.
 
 ## Data Sources & References
 
-The cleaned dataset was checked against the published series below. The values in the electricity columns match the South Korea observations in Ember's yearly electricity dataset, and the GDP values match the World Bank's GDP series.
-
 ### Economic data
 
 - **World Bank, World Development Indicators (WDI):** GDP (constant 2015 US$), indicator `NY.GDP.MKTP.KD`, and GDP growth (annual %), indicator `NY.GDP.MKTP.KD.ZG`, for Korea, Rep.
-- Data: [World Bank GDP series for Korea, Rep.](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD?locations=KR)
-- Indicator metadata: [World Bank WDI — NY.GDP.MKTP.KD](https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.MKTP.KD)
+- [World Bank GDP series — Korea, Rep.](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD?locations=KR)
+- [GDP indicator definition](https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.MKTP.KD)
 
 ### Electricity data
 
-- **Ember, Yearly Electricity Data:** annual electricity generation mix (including renewable, coal, gas, and nuclear shares) and carbon intensity of electricity generation for South Korea, 2015–2024.
-- Dataset and documentation: [Ember — Yearly Electricity Data](https://ember-energy.org/data/yearly-electricity-data/)
-- Data repository: [Ember electricity data on GitHub](https://github.com/ember-energy/ember-data)
+- **Our World in Data (OWID), Energy dataset:** the report identifies OWID's energy and electricity dataset as the source for renewable electricity share, electricity generation mix, and electricity carbon intensity.
+- OWID documents Ember's Yearly Electricity Data among the underlying sources used to compile its electricity-mix data. Ember is therefore acknowledged as an underlying data provider, not represented here as a separately verified direct download for this project.
+- [OWID Energy dataset and source documentation](https://github.com/owid/energy-data)
+- [Ember — Yearly Electricity Data](https://ember-energy.org/data/yearly-electricity-data/)
 
 ### Data preparation and attribution
 
-The annual series were combined into one country-year dataset and used for descriptive statistics, trend visualizations, and correlation analysis. GDP is expressed in constant 2015 US dollars; electricity generation shares are percentages; electricity carbon intensity is expressed in grams of CO₂-equivalent per kilowatt-hour.
+The analysis combines ten annual observations for South Korea (2015–2024). The cleaned CSV contains GDP, GDP growth, renewable electricity share, electricity carbon intensity, and electricity generation shares for coal, natural gas, nuclear, and other sources.
 
-The cleaned CSV is provided in this repository for transparency and reproducibility. Please consult the original providers' documentation for indicator definitions, methodology, licensing, and updates. This project is an independent analysis and is not affiliated with or endorsed by the World Bank or Ember.
+The original download date and version-specific snapshot of the OWID dataset are not recorded in the materials currently available for this project. Add those details if they can be recovered from the original data-collection notebook. Consult the providers' documentation for indicator definitions, source attribution, licensing, and revisions.
+
+This is an independent undergraduate analysis and is not affiliated with or endorsed by the World Bank, Our World in Data, or Ember.
 
 ## Methodology
 
